@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { useState  , useEffect} from 'react'
 //import UpdateUser from './UpdateUser'
 import axios from 'axios';
+import './User.css';
+
 
 
 const User = () => {
