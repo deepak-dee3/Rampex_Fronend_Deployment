@@ -12,7 +12,7 @@ const UpdateUser = () => {
   const updateuser = (e) => {
     e.preventDefault();
 
-    axios.put(`/api/user/update/${id}`,{name,email,address})
+    axios.put(`https://rampex-deployment-2.onrender.com/api/user/update/${id}`,{name,email,address})
   }
 
    const deleteUser = (id) => {
