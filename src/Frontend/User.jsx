@@ -15,9 +15,9 @@ const User = () => {
     ]);
 
     useEffect(()=>{
-        axios.get('/api/user/fetch').then(result=>{
+        axios.get('https://rampex-deployment-2.onrender.com/api/user/fetch').then(result=>{
 
-            //setuser(result.data);
+            //setuser(result.data);http://localhost:3000
             setuser(result.data.users);
         }).catch(err=>{
             console.log(err)

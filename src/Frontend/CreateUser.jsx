@@ -12,7 +12,7 @@ export const CreateUser = () => {
 
     e.preventDefault();
     
-    axios.post('/api/user/create', { name, email, address })
+    axios.post('https://rampex-deployment-2.onrender.com/api/user/create', { name, email, address })
     .then(response => {
         console.log(response.data);
     })

@@ -17,7 +17,7 @@ const UpdateUser = () => {
 
    const deleteUser = (id) => {
          // axios.delete(`http://localhost:3000/api/user/deleteUser/${id}`)
-         axios.delete(`/api/user/deleteUser/${id}`)
+         axios.delete(`https://rampex-deployment-2.onrender.com/api/user/deleteUser/${id}`)
           .then(result=>{
               console.log("user deleted")
           }).catch(err=>{console.log(err)})
