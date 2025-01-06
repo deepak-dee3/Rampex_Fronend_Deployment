@@ -4,8 +4,7 @@ import { createRoot } from 'react-dom/client'
 
 
 
-//import Apps from './Frontend/Apps'
-import User from './Frontend/User'
+import Apps from './Frontend/Apps'
 
 
 
@@ -18,8 +17,7 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter> */}
     {/* <NavBar/> */}
     {/* <Deepak/> */}
-    {/* <Apps/> */}
-    <User/>
+    <Apps/>
     
    
     

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState  , useEffect} from 'react'
-import UpdateUser from './UpdateUser'
+//import UpdateUser from './UpdateUser'
 import axios from 'axios';
 
 
